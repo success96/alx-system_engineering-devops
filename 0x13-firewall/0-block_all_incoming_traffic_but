@@ -11,3 +11,9 @@ ufw default allow outgoing
 ufw allow 22/tcp
 ufw allow 443/tcp
 ufw allow 80/tcp
+# Verify that the rules have been added by running:
+
+sudo ufw show added
+
+# Finally, enable ufw by running:
+sudo ufw enable
